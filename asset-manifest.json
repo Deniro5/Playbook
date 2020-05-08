@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Playbook/static/css/main.d15c2629.chunk.css",
+    "main.js": "/Playbook/static/js/main.bcd5e4be.chunk.js",
+    "main.js.map": "/Playbook/static/js/main.bcd5e4be.chunk.js.map",
+    "runtime-main.js": "/Playbook/static/js/runtime-main.c4aea92a.js",
+    "runtime-main.js.map": "/Playbook/static/js/runtime-main.c4aea92a.js.map",
+    "static/js/2.cb5497ca.chunk.js": "/Playbook/static/js/2.cb5497ca.chunk.js",
+    "static/js/2.cb5497ca.chunk.js.map": "/Playbook/static/js/2.cb5497ca.chunk.js.map",
+    "index.html": "/Playbook/index.html",
+    "precache-manifest.712053ffc10057be290d526cdc505310.js": "/Playbook/precache-manifest.712053ffc10057be290d526cdc505310.js",
+    "service-worker.js": "/Playbook/service-worker.js",
+    "static/css/main.d15c2629.chunk.css.map": "/Playbook/static/css/main.d15c2629.chunk.css.map",
+    "static/js/2.cb5497ca.chunk.js.LICENSE.txt": "/Playbook/static/js/2.cb5497ca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4aea92a.js",
+    "static/js/2.cb5497ca.chunk.js",
+    "static/css/main.d15c2629.chunk.css",
+    "static/js/main.bcd5e4be.chunk.js"
+  ]
+}
