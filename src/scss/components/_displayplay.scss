@@ -1,0 +1,54 @@
+.displayContainer {
+  padding: 1px 10px;
+  margin: auto;
+  margin-top: 5vh;
+  position: relative;
+  color: black;
+  background: white;
+  max-width: 1000px;
+  width: 90%;
+  overflow: scroll;
+  .border {
+    display: block;
+    width: 80px;
+    height: 3px;
+    margin: 20px auto;
+    background: rgb(11, 8, 199);
+  }
+}
+
+.backButton {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 60px;
+  margin-right: 20px;
+  background: rgb(11, 8, 199);
+  height: 45px;
+  width: 150px;
+  font-size: 15px;
+  color: white;
+  border: white 2px solid;
+  transition: 0.4s;
+}
+
+.backButton:hover {
+  background: rgb(3, 0, 156);
+}
+
+#playDesc {
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 350px;
+  margin: auto;
+}
+
+#deleteButton {
+  background: red;
+  &:hover {
+    background: darkred;
+  }
+}
+
+#descContainer {
+  border: 1px solid black;
+}

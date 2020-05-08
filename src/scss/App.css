@@ -1,0 +1,243 @@
+#playbookContainer {
+  width: 80%;
+  background: #dddddd;
+  margin: 50px auto;
+  max-width: 760px;
+  text-align: left;
+  padding: 5px 20px;
+  word-wrap: break-word;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: black;
+}
+
+#playbookContainer:hover {
+  background: #b4b4b4;
+  cursor: pointer;
+}
+
+#test {
+  text-decoration: none;
+}
+
+#playbookTitle {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+.playbookSubTitle {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#playbookSummary {
+  line-height: 25px;
+  text-decoration: none;
+}
+
+#playbookDate {
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+#newPlaybook {
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 2px;
+  background: green;
+  color: white;
+  border: none;
+  font-size: 16px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#newPlaybook:hover {
+  background: darkgreen;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.createContainer {
+  padding: 1px 10px;
+  margin: auto;
+  margin-top: 5vh;
+  position: relative;
+  color: black;
+  background: white;
+  max-width: 1000px;
+  max-height: 80vh;
+  width: 90%;
+  overflow: scroll;
+}
+
+.createContainer .border {
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 20px auto;
+  background: #0b08c7;
+}
+
+.closeModal {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 22px;
+  color: grey;
+  cursor: pointer;
+}
+
+.closeModal:hover {
+  color: red;
+}
+
+.inputContainer {
+  width: 95%;
+  max-width: 500px;
+  line-height: 90px;
+  margin: auto;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 400px;
+  background: white;
+}
+
+.address {
+  line-height: 15px;
+}
+
+.submitButton {
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom: 100px;
+  background: #0b08c7;
+  height: 45px;
+  width: 130px;
+  font-size: 15px;
+  color: white;
+  border: white 2px solid;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.submitButton:hover {
+  background: #03009c;
+}
+
+#playPreviewContainer {
+  height: 300px;
+  width: 300px;
+  background: white;
+  margin: 20px 10px;
+  display: inline-block;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+#playPreviewName {
+  display: inline-block;
+  color: black;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#formationContainer {
+  margin: auto;
+  color: white;
+  text-align: center;
+  max-width: 1000px;
+  margin-bottom: 50px;
+}
+
+#uploadIcon {
+  width: 300px;
+  height: 300px;
+  color: green;
+  margin: 0px 10px;
+  cursor: pointer;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+#uploadIcon:hover {
+  color: darkgreen;
+}
+
+#formationMenuContainer {
+  width: 250px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  background: #dddddd;
+  overflow: scroll;
+}
+
+.formationMenuItem {
+  width: 248px;
+  height: 45px;
+  background: white;
+  line-height: 45px;
+  font-weight: bold;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: auto;
+  margin-top: 1px;
+}
+
+.formationMenuItem:hover {
+  background: whitesmoke;
+  cursor: pointer;
+}
+
+#newFormation {
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 2px;
+  background: green;
+  color: white;
+  border: none;
+  font-size: 16px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#newFormation:hover {
+  background: darkgreen;
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  background: white;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,56 @@
+#formationMenuContainer {
+  width: 250px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  overflow: scroll;
+  border-right: 1px solid rgb(167, 166, 166);
+  p {
+    margin: 20px;
+    font-weight: bold;
+  }
+}
+
+.formationMenuItem {
+  width: 248px;
+  height: 45px;
+  background: white;
+  line-height: 45px;
+  font-weight: 500;
+  transition: 0.4s;
+  margin: auto;
+  margin-top: -1px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  &:hover {
+    background: rgb(245, 245, 245);
+    cursor: pointer;
+  }
+}
+
+#newFormation {
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 2px;
+  background: green;
+  color: white;
+  border: none;
+  font-size: 16px;
+  transition: 0.4s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &:hover {
+    background: darkgreen;
+  }
+}
+
+#formationMenuTitle {
+  background: rgb(255, 255, 255);
+  margin: auto;
+  width: 99%;
+  padding: 20px 0px 25px 0px;
+  font-size: 18px;
+  text-decoration: underline;
+}

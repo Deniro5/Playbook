@@ -1,0 +1,50 @@
+@import "./components/home.scss";
+@import "./components/playbook.scss";
+@import "./components/newplaybook.scss";
+@import "./components/playpreview.scss";
+@import "./components/formation.scss";
+@import "./components/formationmenu.scss";
+@import "./components/displayplay.scss";
+
+.App {
+  text-align: center;
+}
+
+body {
+  background: white;
+}
+
+.border {
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 20px auto;
+  margin-top: 15px;
+  background: rgb(11, 8, 199);
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.subTitle {
+  font-size: 14px;
+  margin-top: 0px;
+  color: rgb(54, 54, 54);
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.canvas {
+  margin: Auto;
+  display: block;
+  margin-top: 30px;
+  border: 1px solid black;
+  background: green;
+  position: relative;
+}

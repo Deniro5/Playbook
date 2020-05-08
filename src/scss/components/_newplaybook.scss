@@ -1,0 +1,97 @@
+.createContainer {
+  padding: 1px 10px;
+  margin: auto;
+  margin-top: 5vh;
+  position: relative;
+  color: black;
+  background: white;
+  max-width: 1000px;
+  max-height: 80vh;
+  width: 90%;
+  overflow: scroll;
+  text-align: center;
+}
+
+.inputContainer {
+  width: 95%;
+  max-width: 500px;
+  line-height: 90px;
+  margin: auto;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 400px;
+  background: white;
+}
+
+.submitButton {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 45px;
+  margin-bottom: 100px;
+  margin-right: 20px;
+  background: rgb(11, 8, 199);
+  height: 45px;
+  width: 130px;
+  font-size: 15px;
+  color: white;
+  border: white 2px solid;
+  transition: 0.4s;
+}
+
+.submitButton:hover {
+  background: rgb(3, 0, 156);
+}
+
+.cancelButton {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 45px;
+  margin-bottom: 100px;
+  background: red;
+  height: 45px;
+  width: 130px;
+  font-size: 15px;
+  color: white;
+  border: white 2px solid;
+  transition: 0.4s;
+}
+
+.cancelButton:hover {
+  background: darkred;
+}
+
+#createTitle {
+  margin-top: 20px;
+}
+
+.createInstruction {
+  line-height: 25px;
+}
+
+.createInputContainer {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  margin-top: -20px;
+  padding: 10px;
+}
+
+.newPlayControls {
+  height: 25px;
+  width: 50px;
+  margin: 0px -1px;
+  margin-top: 30px;
+  margin-bottom: -40px;
+  transform: translateX(-102px) translateY(25px);
+  cursor: pointer;
+  border: none;
+  background: white;
+  color: black;
+  border: rgb(73, 73, 73) 1px solid;
+}
+
+.newPlayControls:hover {
+  background: lightgrey;
+}
