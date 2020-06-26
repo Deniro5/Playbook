@@ -52,20 +52,14 @@ const Home: React.FC<IHomeProps> = () => {
       {playbooks.length === 0 && (
         <p style={{ marginTop: "50px", marginBottom: "40px" }}> No Playbooks Saved </p>
       )}
-      <button
-        onClick={() => {
-          setModalOpen(true);
-        }}
-        id='newPlaybook'>
+      <button onClick={() => setModalOpen(true)} id='newPlaybook'>
         Create New Playbook
       </button>
       <Modal
         aria-labelledby='simple-modal-title'
         aria-describedby='simple-modal-description'
         open={modalOpen}
-        onClose={() => {
-          setModalOpen(false);
-        }}>
+        onClose={() => setModalOpen(false)}>
         <NewPlaybook setPlaybooks={setPlaybooks} close={setModalOpen} />
       </Modal>
     </div>

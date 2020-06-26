@@ -30,11 +30,7 @@ const Playbook: React.FC<IPlaybookProps> = (props) => {
   return (
     <Link style={{ textDecoration: "none" }} to={{ pathname: `/${id}` }}>
       <div id='playbookContainer'>
-        <p
-          onClick={(e) => {
-            deletePlaybook(e);
-          }}
-          id='deletePlaybook'>
+        <p onClick={(e) => deletePlaybook(e)} id='deletePlaybook'>
           x
         </p>
         <h1 id='playbookTitle'> {name} </h1>

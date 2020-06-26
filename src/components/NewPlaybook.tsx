@@ -88,11 +88,7 @@ const NewPlaybook: React.FC<INewPlaybookProps> = (props) => {
       <button className='submitButton' onClick={submit}>
         Submit
       </button>
-      <button
-        className='cancelButton'
-        onClick={() => {
-          props.close(false);
-        }}>
+      <button className='cancelButton' onClick={() => props.close(false)}>
         Cancel
       </button>
     </div>

@@ -131,37 +131,23 @@ const NewPlay: React.FC<INewPlayProps> = (props) => {
   };
 
   return (
-    <div className='createContainer'>
+    <div className='createContainer' onMouseUp={() => setMousePressed(false)}>
       <h1 id='createTitle'> Create New Play</h1>
       <div className='border'> </div>
       <Grid container spacing={3}>
         <Grid item xs={12} md={7}>
-          <button
-            className='newPlayControls'
-            onClick={() => {
-              undo();
-            }}>
+          <button className='newPlayControls' onClick={() => undo()}>
             Undo
           </button>
-          <button
-            className='newPlayControls'
-            onClick={() => {
-              clear();
-            }}>
+          <button className='newPlayControls' onClick={() => clear()}>
             Clear
           </button>
           <canvas
-            onMouseDown={() => {
-              setMousePressed(true);
-            }}
-            onMouseUp={() => {
-              setMousePressed(false);
-            }}
+            onMouseDown={() => setMousePressed(true)}
+            onMouseUp={() => setMousePressed(false)}
             className='canvas'
             ref={canvas}
-            onMouseMoveCapture={(e) => {
-              draw(e);
-            }}
+            onMouseMoveCapture={(e) => draw(e)}
             width={300}
             height={300}></canvas>
         </Grid>
@@ -194,11 +180,7 @@ const NewPlay: React.FC<INewPlayProps> = (props) => {
             <button className='submitButton' onClick={submit}>
               Submit
             </button>
-            <button
-              className='cancelButton'
-              onClick={() => {
-                props.close(false);
-              }}>
+            <button className='cancelButton' onClick={() => props.close(false)}>
               Cancel
             </button>
           </div>

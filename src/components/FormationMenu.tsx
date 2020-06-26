@@ -26,20 +26,14 @@ const FormationMenu: React.FC<IFormationMenuProps> = (props) => {
         </div>
       ))}
       {formations.length === 0 && <p> No Formations Saved </p>}
-      <button
-        onClick={() => {
-          setModalOpen(true);
-        }}
-        id='newFormation'>
+      <button onClick={() => setModalOpen(true)} id='newFormation'>
         Create New Formation
       </button>
       <Modal
         aria-labelledby='simple-modal-title'
         aria-describedby='simple-modal-description'
         open={modalOpen}
-        onClose={() => {
-          setModalOpen(false);
-        }}>
+        onClose={() => setModalOpen(false)}>
         <NewFormation close={setModalOpen} />
       </Modal>
     </div>

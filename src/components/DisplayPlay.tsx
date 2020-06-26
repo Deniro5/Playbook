@@ -81,11 +81,7 @@ const DisplayPlay: React.FC<IDisplayPlayProps> = (props) => {
         </Grid>
       </Grid>
       <div style={{ marginTop: "25px" }}>
-        <button
-          onClick={() => {
-            props.setCurrPlay(-1);
-          }}
-          className='backButton'>
+        <button onClick={() => props.setCurrPlay(-1)} className='backButton'>
           Back to Formation
         </button>
         <button id='deleteButton' onClick={deletePlay} className='backButton'>

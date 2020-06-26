@@ -37,9 +37,7 @@ const PlayPreview: React.FC<IPlayPreviewProps> = (props) => {
     <Fragment>
       <div id='playPreviewContainer'>
         <canvas
-          onClick={() => {
-            props.setCurrPlay(index);
-          }}
+          onClick={() => props.setCurrPlay(index)}
           style={{
             display: "inline-block",
             background: "green",

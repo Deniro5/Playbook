@@ -82,12 +82,7 @@ const Formation: React.FC<IFormationProps> = () => {
               </h1>
               <div id='formationBorder' />
               <h4 className='subTitle'> Click on a play to view or add a new play </h4>
-              <AddCircle
-                id='uploadIcon'
-                onClick={() => {
-                  setModalOpen(true);
-                }}
-              />
+              <AddCircle id='uploadIcon' onClick={() => setModalOpen(true)} />
               {playbook.formations[currFormation].plays.map(
                 (play: any, index: number) => (
                   <PlayPreview
@@ -109,9 +104,7 @@ const Formation: React.FC<IFormationProps> = () => {
                 aria-labelledby='simple-modal-title'
                 aria-describedby='simple-modal-description'
                 open={modalOpen}
-                onClose={() => {
-                  setModalOpen(false);
-                }}>
+                onClose={() => setModalOpen(false)}>
                 <NewPlay
                   positions={playbook.formations[currFormation].positions}
                   close={setModalOpen}
